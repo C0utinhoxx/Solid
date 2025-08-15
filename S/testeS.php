@@ -41,7 +41,7 @@ use Illuminate\Support\Facades\Mail;
 
 class OrderProcessor
 {
-    public function processOrder($orderId, $amount)
+    public function processOrder($orderId, $amount, $email)
     {
         echo "Processando pagamento de R$ $amount para pedido $orderId...\n";
          }
